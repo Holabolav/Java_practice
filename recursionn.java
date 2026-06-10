@@ -8,9 +8,8 @@ public class recursionn {
             }
             System.out.println(n);//5 to 1
             p(n-1); //recursive call first
-            
+
             //System.out.println(n);//1 to 5
-            
         }
         //Sum of first n natural numbers.
         static int sum(int n){
@@ -26,16 +25,21 @@ public class recursionn {
             }
             return n* fact(n-1);
         }
+        static int fibo(int n){  //T.C. = 2^n...
+            if(n<=1){
+                return n;
+            }
+            return fibo(n-1) + fibo(n-2);
+        }
         
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-            System.out.print("Enter numbers:  ");
+            System.out.print("Enter numbers: ");
             int k = sc.nextInt();
             p(k);
             System.out.println("Factorial: " +fact(k));
             System.out.println("Sum: "+sum(k));
+            System.out.println("Fibbonachi series: " + fibo(k));
 
         }
-
-    
 }
