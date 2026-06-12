@@ -1,0 +1,10 @@
+// Q1: crete a paret class "shape" with a string variable colour .. set to "Red"  then create a circle class that extends shape. in circle create its own colour variable set to blue.
+//  write a method in circle that prints both colours using super keyword.
+
+// Q2: Create a class called Printer.  Overload a method called printdocument. One version take an inetegr (number of copied). The other takes a string (a secret messsage).
+//Create a parent class Appliance with a turnOn() mthod. Create a child class Toaster that overrides turnOn() to say "Heating up bread". Test both in your main method.
+
+//Create a abstract class named shape, with an abstract method area(). The classes Circle and Rectangle will inherit the abstract class, and print their area.
+
+//Q--> check wether there is a loop present in a LL i.e. if 2 points at 3 and 3 points back at 2 ..it is a loop
+//fast and slow method...
