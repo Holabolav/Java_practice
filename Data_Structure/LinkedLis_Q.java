@@ -1,4 +1,3 @@
-package Dsa;
 //Q--> check wether there is a loop present in a LL i.e. if 2 points at 3 and 3 points back at 2 ..it is a loop
 //fast and slow method...
 import java.util.*;

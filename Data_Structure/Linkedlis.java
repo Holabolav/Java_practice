@@ -1,4 +1,3 @@
-package Dsa;
 // create a linkedList 5->3->4->1 then update 4 with 6 
 import java.util.LinkedList;
 

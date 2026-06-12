@@ -1,4 +1,3 @@
-package Dsa;
 //write all the subsets of a set 
 
 public class backracking {
