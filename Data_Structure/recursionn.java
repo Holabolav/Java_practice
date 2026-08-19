@@ -19,11 +19,11 @@ public class recursionn {
             return n+ sum(n-1);
         }
         //Factorial.
-        static int fact(int n){
-            if(n==0){
+        static long fact(int n){
+            if(n==0){    // Base Case.
                 return 1;
             }
-            return n* fact(n-1);
+            return n* fact(n-1); //Refrence Variable.
         }
         static int fibo(int n){  //T.C. = 2^n...
             if(n<=1){

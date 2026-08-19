@@ -15,6 +15,8 @@ public class Que_prac {
 
         System.out.println("Front Element: " + Q.peek()); //Front Element.
 
+        
+
             
         
     }
